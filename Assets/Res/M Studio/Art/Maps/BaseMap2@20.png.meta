@@ -494,7 +494,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BaseMap2@20_18
+      name: BaseMap2@f
       rect:
         serializedVersion: 2
         x: 140
@@ -515,7 +515,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BaseMap2@20_19
+      name: BaseMap2@f2
       rect:
         serializedVersion: 2
         x: 160
@@ -536,7 +536,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BaseMap2@20_20
+      name: BaseMap2@f3
       rect:
         serializedVersion: 2
         x: 180
@@ -1145,7 +1145,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BaseMap2@20_49
+      name: BaseMap2@f4
       rect:
         serializedVersion: 2
         x: 140
@@ -1166,7 +1166,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BaseMap2@20_50
+      name: BaseMap2@f5
       rect:
         serializedVersion: 2
         x: 160
@@ -1187,7 +1187,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BaseMap2@20_51
+      name: BaseMap2@f6
       rect:
         serializedVersion: 2
         x: 180
@@ -1586,7 +1586,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BaseMap2@20_70
+      name: BaseMap2@f7
       rect:
         serializedVersion: 2
         x: 140
@@ -1607,7 +1607,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BaseMap2@20_71
+      name: BaseMap2@f8
       rect:
         serializedVersion: 2
         x: 160
@@ -1628,11 +1628,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BaseMap2@20_72
+      name: BaseMap2@f9
       rect:
         serializedVersion: 2
         x: 180
-        y: 360
+        y: 359
         width: 20
         height: 20
       alignment: 0
@@ -9162,10 +9162,10 @@ TextureImporter:
       BaseMap2@20_136: 1030062155
       BaseMap2@20_341: -858525709
       BaseMap2@20_377: -1308587857
-      BaseMap2@20_110: 1487613916
+      BaseMap2@20_1: -1153566352
       BaseMap2@20_261: -1804880551
       BaseMap2@20_327: -908167247
-      BaseMap2@20_1: -1153566352
+      BaseMap2@20_110: 1487613916
       BaseMap2@20_154: -12410678
       BaseMap2@20_255: -1942467446
       BaseMap2@20_353: 2065207137
@@ -9194,6 +9194,7 @@ TextureImporter:
       BaseMap2@20_334: 1908310117
       BaseMap2@20_229: 354257502
       BaseMap2@20_3: 988276472
+      BaseMap2@f: 407808871
       BaseMap2@20_376: -1922724782
       BaseMap2@20_275: 1715560552
       BaseMap2@20_383: -2123061595
@@ -9242,9 +9243,11 @@ TextureImporter:
       BaseMap2@20_164: 1159286643
       BaseMap2@20_117: -1018747524
       BaseMap2@20_305: -879790953
+      BaseMap2@f7: 1832858576
       BaseMap2@20_2: 1471104792
       BaseMap2@20_41: 1659627082
       BaseMap2@20_314: 1511848261
+      BaseMap2@f2: -1630395053
       BaseMap2@20_45: 806680427
       BaseMap2@20_160: -1865165537
       BaseMap2@20_29: 2022938229
@@ -9273,6 +9276,7 @@ TextureImporter:
       BaseMap2@20_291: -478630178
       BaseMap2@20_288: -381878390
       BaseMap2@20_56: 1802809486
+      BaseMap2@f3: -1712836729
       BaseMap2@20_227: -1655800779
       BaseMap2@20_298: 1719749829
       BaseMap2@20_300: 1833278194
@@ -9302,9 +9306,8 @@ TextureImporter:
       BaseMap2@20_290: -1615138477
       BaseMap2@20_42: 1629704434
       BaseMap2@20_324: 1372741537
-      BaseMap2@20_72: 972194670
-      BaseMap2@20_176: 713449709
       BaseMap2@20_394: -1738180002
+      BaseMap2@20_176: 713449709
       BaseMap2@20_98: -1036930541
       BaseMap2@20_147: 417422828
       BaseMap2@20_11: -1555149815
@@ -9330,9 +9333,11 @@ TextureImporter:
       BaseMap2@20_336: 1720202546
       BaseMap2@20_390: -622234165
       BaseMap2@20_418: -1048154519
+      BaseMap2@f9: 972194670
       BaseMap2@20_83: 1767699188
       BaseMap2@20_152: 255478262
       BaseMap2@20_392: 1877293057
+      BaseMap2@f4: 489309056
       BaseMap2@20_364: -332668228
       BaseMap2@20_132: -628597679
       BaseMap2@20_344: 906468424
@@ -9383,7 +9388,6 @@ TextureImporter:
       BaseMap2@20_223: 209436622
       BaseMap2@20_423: 771051436
       BaseMap2@20_349: 613965233
-      BaseMap2@20_49: 489309056
       BaseMap2@20_34: -1110569393
       BaseMap2@20_73: -717581339
       BaseMap2@20_68: -1973917798
@@ -9405,22 +9409,22 @@ TextureImporter:
       BaseMap2@20_307: 1591923598
       BaseMap2@20_265: -1412075742
       BaseMap2@20_228: -953105357
-      BaseMap2@20_370: 500699927
+      BaseMap2@20_118: -422743973
       BaseMap2@20_44: -1787224530
       BaseMap2@20_104: -93311037
       BaseMap2@20_368: 1337837551
       BaseMap2@20_236: -1988824150
       BaseMap2@20_258: 699854570
       BaseMap2@20_427: -1356486520
-      BaseMap2@20_118: -422743973
-      BaseMap2@20_380: -1197066236
+      BaseMap2@20_286: -382956888
+      BaseMap2@20_370: 500699927
       BaseMap2@20_285: -833941517
       BaseMap2@20_100: -1572537403
+      BaseMap2@20_380: -1197066236
       BaseMap2@20_192: 59930773
-      BaseMap2@20_286: -382956888
+      BaseMap2@20_396: -1106849132
       BaseMap2@20_141: 724623070
       BaseMap2@20_410: -1228285021
-      BaseMap2@20_396: -1106849132
       BaseMap2@20_388: -1378232380
       BaseMap2@ground5: 393565608
       BaseMap2@20_387: 1986730590
@@ -9440,15 +9444,13 @@ TextureImporter:
       BaseMap2@20_406: 2124656293
       BaseMap2@20_354: 567298646
       BaseMap2@20_263: -1316657064
-      BaseMap2@20_18: 407808871
       BaseMap2@20_378: 1470850791
       BaseMap2@20_14: 335734
       BaseMap2@20_320: -637491382
       BaseMap2@20_133: -1857749109
-      BaseMap2@20_71: 1234000965
+      BaseMap2@20_357: -137346290
       BaseMap2@20_66: 899875707
       BaseMap2@20_308: -1266666089
-      BaseMap2@20_357: -137346290
       BaseMap2@20_74: -1295112499
       BaseMap2@20_146: -753847807
       BaseMap2@20_178: -848727710
@@ -9465,6 +9467,7 @@ TextureImporter:
       BaseMap2@20_103: -1469695810
       BaseMap2@20_126: 471582267
       BaseMap2@20_53: -1003433337
+      BaseMap2@f6: 901799980
       BaseMap2@20_91: 1707238663
       BaseMap2@20_428: -937256997
       BaseMap2@20_80: -1523035315
@@ -9474,6 +9477,7 @@ TextureImporter:
       BaseMap2@20_205: -1312101117
       BaseMap2@20_105: -1583970438
       BaseMap2@20_296: 862056811
+      BaseMap2@f8: 1234000965
       BaseMap2@20_4: -1965852971
       BaseMap2@20_36: 441619728
       BaseMap2@20_237: -1188858579
@@ -9486,7 +9490,6 @@ TextureImporter:
       BaseMap2@20_142: 1143928910
       BaseMap2@20_40: 1343000677
       BaseMap2@20_123: 2091568848
-      BaseMap2@20_19: -1630395053
       BaseMap2@20_55: -1033722479
       BaseMap2@20_243: 331843769
       BaseMap2@20_425: 1618061191
@@ -9524,23 +9527,22 @@ TextureImporter:
       BaseMap2@20_335: -897677465
       BaseMap2@20_404: 1783673465
       BaseMap2@20_140: -903071580
-      BaseMap2@20_50: -379005812
       BaseMap2@20_343: -1394241949
       BaseMap2@20_119: 374074128
       BaseMap2@20_362: 243071679
       BaseMap2@20_38: -216617118
       BaseMap2@20_97: 1474761584
       BaseMap2@20_346: 2107557772
+      BaseMap2@f5: -379005812
       BaseMap2@20_149: 1212837292
       BaseMap2@20_293: 1010259898
       BaseMap2@20_337: 324452003
       BaseMap2@20_399: 39086656
       BaseMap2@20_248: -1977963111
       BaseMap2@20_208: 628697999
-      BaseMap2@20_20: -1712836729
       BaseMap2@20_145: 1946787582
-      BaseMap2@20_323: 1681614767
       BaseMap2@20_397: 523615155
+      BaseMap2@20_323: 1681614767
       BaseMap2@20_347: 1526112213
       BaseMap2@20_57: 728024169
       BaseMap2@ground10: 1222187538
@@ -9550,7 +9552,6 @@ TextureImporter:
       BaseMap2@20_207: -986309036
       BaseMap2@ground4: -1719871471
       BaseMap2@20_246: 558645195
-      BaseMap2@20_51: 901799980
       BaseMap2@20_312: 337552426
       BaseMap2@20_52: 1414190989
       BaseMap2@20_199: 2022486189
@@ -9559,7 +9560,6 @@ TextureImporter:
       BaseMap2@20_31: -1067280248
       BaseMap2@20_84: 427338763
       BaseMap2@20_239: -1681861986
-      BaseMap2@20_70: 1832858576
       BaseMap2@20_340: 368930766
       BaseMap2@20_225: -1349949589
       BaseMap2@20_76: 303534696
