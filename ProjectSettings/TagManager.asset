@@ -41,3 +41,39 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Ground Bottom
+    uniqueID: 4273702169
+    locked: 0
+  - name: Ground Middle
+    uniqueID: 66647237
+    locked: 0
+  - name: Ground Top
+    uniqueID: 4052916865
+    locked: 0
+  - name: Stuff 1
+    uniqueID: 477388591
+    locked: 0
+  - name: Stuff 2
+    uniqueID: 4174538675
+    locked: 0
+  - name: Dig
+    uniqueID: 420059535
+    locked: 0
+  - name: Water
+    uniqueID: 1171161985
+    locked: 0
+  - name: Instance
+    uniqueID: 1037503815
+    locked: 0
+  - name: Fron1
+    uniqueID: 709139979
+    locked: 0
+  - name: Fron2
+    uniqueID: 1203978021
+    locked: 0
+  - name: Fron3
+    uniqueID: 3735150341
+    locked: 0
+  - name: Collisions
+    uniqueID: 2385541275
+    locked: 0
