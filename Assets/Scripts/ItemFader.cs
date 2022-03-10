@@ -10,7 +10,7 @@ public class ItemFader : MonoBehaviour
 
     private void Awake()
     {
-        spriteRenderer = GetComponent<SpriteRenderer>();
+        spriteRenderer = GetComponent<SpriteRenderer>();        
     }
 
     /// <summary>
