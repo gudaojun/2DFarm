@@ -9,7 +9,7 @@ public class ItemDetails
 
     public ItemType itemType;
     public Sprite itemIcon;
-    public Sprite iteamOnWroldSprite;
+    public Sprite itemOnWorldSprite;
     public string itemDescription;
 
     public int itemUseRadius;
@@ -25,4 +25,11 @@ public class ItemDetails
     //出售时打折比率
     [Range(0,1)]
     public float sellPercentage;
+}
+
+[System.Serializable]
+public struct InventoryItem
+{
+    public int itemID;
+    public int itemAmount;
 }
