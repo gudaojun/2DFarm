@@ -6,20 +6,22 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     private Rigidbody2D rb;
+    private Animator[] animators;
     public float speed;
     private float inputX;
     private float inputY;
-
+    private bool isMoving;
     private Vector2 moveInput;
-
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        animators = rb.GetComponentsInChildren<Animator>();
     }
 
     void Update()
     {
         PlayerInput();
+        SwichAnimation();
     }
 
     private void FixedUpdate()
@@ -42,7 +44,13 @@ public class Player : MonoBehaviour
             inputX = 0.6f;
             inputY = 0.6f;
         }
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
+            inputX = 0.5f * inputX;
+            inputY = 0.5f * inputY;
+        }
         moveInput = new Vector2(inputX, inputY);
+        isMoving = moveInput != Vector2.zero;
     }
 
     /// <summary>
@@ -53,4 +61,16 @@ public class Player : MonoBehaviour
         rb.MovePosition(rb.position+moveInput * speed * Time.deltaTime);
     }
 
+    private void SwichAnimation()
+    {
+        foreach (var anim in animators)
+        {
+            anim.SetBool("IsMoving", isMoving);
+            if (isMoving)
+            {
+                anim.SetFloat("InputX",inputX);
+                anim.SetFloat("InputY",inputY);
+            }
+        }
+    }
 }

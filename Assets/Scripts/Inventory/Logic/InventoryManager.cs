@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace Inventory
 {
@@ -10,6 +11,12 @@ namespace Inventory
         public ItemDataList_SO itemDataList_SO;
         [Header("背包数据")]
         public InventoryBag_SO PlayerBag;
+
+        private void Start()
+        {
+            EventHandler.CallUpdateInventoryUI(InventoryLocation.Player, PlayerBag.itemList);
+        }
+
         /// <summary>
         /// 通过ID获取物品信息
         /// </summary>
@@ -36,6 +43,8 @@ namespace Inventory
             {
                 Destroy(item.gameObject);
             }
+            //更新UI
+            EventHandler.CallUpdateInventoryUI(InventoryLocation.Player,PlayerBag.itemList);
         }
 
         /// <summary>
@@ -96,5 +105,30 @@ namespace Inventory
                 PlayerBag.itemList[index] = item;
             }
         }
+        /// <summary>
+        /// Player背包范围内交换物品
+        /// </summary>
+        /// <param name="fromIndex">当前序号</param>
+        /// <param name="targetIndex">目标序号</param>
+        public void SwapItem(int fromIndex, int targetIndex)
+        {
+            InventoryItem currentItem = PlayerBag.itemList[fromIndex];
+            InventoryItem targetItem =PlayerBag.itemList[targetIndex];
+
+            if (targetItem.itemID!=0)
+            {
+                PlayerBag.itemList[fromIndex] = targetItem;
+                PlayerBag.itemList[targetIndex] = currentItem;
+            }
+            else
+            {
+                PlayerBag.itemList[targetIndex] = currentItem;
+                PlayerBag.itemList[fromIndex] = new InventoryItem();
+            }
+
+            EventHandler.CallUpdateInventoryUI(InventoryLocation.Player,PlayerBag.itemList);
+        }
     }
+
+
 }

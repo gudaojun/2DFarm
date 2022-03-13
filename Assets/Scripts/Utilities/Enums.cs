@@ -41,3 +41,22 @@ public enum ItemType
     /// </summary>
     ReapableScenery
 }
+
+public enum SlotType
+{
+    Bag,Box,Shop
+}
+
+public enum InventoryLocation
+{
+    Player,BOx
+}
+
+public enum PartType 
+{
+    None,Carry,Hoe,Break
+}
+public enum PartName
+{
+    Hair,Body,Arm, Tool
+}
