@@ -43,7 +43,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Inspector
+  m_Title: Project
   m_RootView: {fileID: 4}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -167,7 +167,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 883
+  controlID: 87
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -192,7 +192,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 917
+  controlID: 106
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -271,7 +271,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 843
+  controlID: 47
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -344,8 +344,8 @@ MonoBehaviour:
     y: 0
     width: 555
     height: 947
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 22}
   m_Panes:
   - {fileID: 22}
@@ -421,23 +421,23 @@ MonoBehaviour:
     m_DrawArea:
       serializedVersion: 2
       x: 0
-      y: 21
+      y: 0
       width: 1175
-      height: 590
-    m_Scale: {x: 0.5462963, y: 0.5462963}
-    m_Translation: {x: 587.5, y: 295}
+      height: 611
+    m_Scale: {x: 0.56574076, y: 0.56574076}
+    m_Translation: {x: 587.5, y: 305.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -1075.4237
+      x: -1038.4615
       y: -540
-      width: 2150.8474
+      width: 2076.923
       height: 1080
     m_MinimalGUI: 1
-  m_defaultScale: 0.5462963
+  m_defaultScale: 0.56574076
   m_LastWindowPixelSize: {x: 1175, y: 611}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
@@ -691,9 +691,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.64109766, y: 1.5857766, z: -0.012512994}
+    m_Target: {x: -0.24330436, y: 2.0768077, z: -0.027690029}
     speed: 2
-    m_Value: {x: 0.64109766, y: 1.5857766, z: -0.012512994}
+    m_Value: {x: -0.14715564, y: 2.0586035, z: -0.026190123}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -744,9 +744,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 1.9654398
+    m_Target: 3.4831448
     speed: 2
-    m_Value: 1.9654398
+    m_Value: 3.3331528
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -945,9 +945,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 704f0000
-      m_LastClickedID: 20336
-      m_ExpandedIDs: 14fbffff2a4f0000
+      m_SelectedIDs: 626b0000
+      m_LastClickedID: 0
+      m_ExpandedIDs: 14fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1047,7 +1047,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Res/M Studio/Animations/Basic Empty Clips
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 0
@@ -1061,7 +1061,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 0e660000
     m_LastClickedID: 26126
-    m_ExpandedIDs: ffffffff000000002450000056680000646b0000666b0000686b00006a6b00006c6b00006e6b0000706b0000726b0000746b0000766b0000786b00007a6b00007c6b00007e6b0000806b0000826b0000846b0000866b0000886b00008a6b00008c6b00008e6b0000906b0000926b0000946b0000966b0000986b00009a6b0000
+    m_ExpandedIDs: 000000002450000056680000626b0000646b0000666b0000686b00006a6b00006c6b00006e6b0000706b0000726b0000746b0000766b0000786b00007a6b00007c6b00007e6b0000806b0000826b0000846b0000866b0000886b00008a6b00008c6b00008e6b0000906b0000926b0000946b0000966b0000986b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1086,10 +1086,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_AssetTreeState:
-    scrollPos: {x: 0, y: 900}
+    scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff000000002450000056680000646b0000666b0000686b00006a6b00006c6b00006e6b0000706b0000726b0000746b0000766b0000786b00007a6b00007c6b00007e6b0000806b0000826b0000846b0000866b0000886b00008a6b00008c6b00008e6b0000906b0000926b0000946b0000966b0000986b00009a6b0000
+    m_ExpandedIDs: ffffffff000000002450000056680000626b0000646b0000666b0000686b00006a6b00006c6b00006e6b0000706b0000726b0000746b0000766b0000786b00007a6b00007c6b00007e6b0000806b0000826b0000846b0000866b0000886b00008a6b00008c6b00008e6b0000906b0000926b0000946b0000966b0000986b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
